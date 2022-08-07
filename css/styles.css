@@ -137,19 +137,19 @@ margin-left: auto;}
     fill: var(--secondary-color);
     stroke: currentColor;
     margin-right: 10px;
-    
 }
 
 
 /*Hero*/
 .hero-title{
+    width: 1600px;
+    background-position: center;
     color: var(--primary-white-color);
     background-color: #2F303A;
     text-align: center;
     padding: 200px 0;
     background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/page1/img-hero-bg.jpg);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
 }
 .hero-heder{
@@ -368,6 +368,15 @@ padding: 30px 10px;
     align-items: center;
     justify-content: center;
 }
+.client-link:hover,
+.client-link:focus{
+    border: 1px solid #2196F3;
+}
+.client-link:hover .client-icon,
+.client-link:focus .client-icon{
+    fill: #2196F3;
+}
+
 .client-icon {
     display: flex;
     fill: #AFB1B8;
